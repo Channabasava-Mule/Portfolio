@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71e29bab2c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">My Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm Channabasava Mule</h1>
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"></div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>My Name is Channabasava Mule An Aspiring Software Developer,Graduated from PDA College of Engineering with an Aggregate of 7.20 CGPA  specialized in Electrical and Electronics Engineering,Taking an interest in the software development feild I have honed My skill in Java-SE,Front-End Technologies and Database -MySql. Also on the path of Mastering the Data Structures and Algorithms using Java as my Programming language.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                            <p class="tab-links"onclick="opentab('experince')">Experince</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Designer</span><br>Designing User Interfaces</li>
+                                <li><span>Web development</span><br>Web app development</li>
+                                <li><span>Adobe Design Software</span><br>PhotoManipulation and Logo Designing</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-2023</span><br>Under Graduation</li>
+                                <li><span>2017-2019</span><br>Intermediate(12th)</li>
+                                <li><span>2016-2017</span><br>Secondary School(10th)</li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="experince">
+                            <ul>
+                                <li><span>sep 2022- dec 2022</span><br>Internship at GESCOM</li>
+                                
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I'll create design for your webpage with responsive attribute to the webpage which will adjust itself accordingly to the screen ratio.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>PhotoManipulation</h2>
+                    <p>I'll create visually stunning photos as per your requirment and logos for your webpage,social handles etc......</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-window-restore"></i>
+                    <h2>Web Application</h2>
+                    <p>Creation of Web Application according to your requirments,will use Java for the coding the whole program to provide Efficiency and Performance at its best.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- porfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Food Ordering Website</h3>
+                        <p>This site allows you to order food from your restaurant while sitting at your comfort</p>
+                        <a href="https://codepen.io/chintu-roxx/full/vYjrzLJ"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>E-commerce Website</h3>
+                        <p>E-commerce website of nike.where you can buy your favorite products throuth this site at your sitting </p>
+                        <a href="https://channabasava-mule.github.io/E-commerce/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Music Player</h3>
+                        <p>This is Music Web application which allows the user to play the musci of his liking</p>
+                        <a href="https://codepen.io/chintu-roxx/full/GRdvaZd"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>mulechannabasava2001@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>+91 8431611995</p>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/channabasava-mule"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Channabasava-Mule"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/channabasava12M"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/channabasava.s.mule/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Images/My Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Channabasava.</p>
+        </div>
+    </div>
+
+    <script>
+        var  tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzdk4d9P_eiLuvLMQzFgE1IJfXlmX3YqAk-nrh1RziKm6v4TglGoRWvbQd5VHUxvdaQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
